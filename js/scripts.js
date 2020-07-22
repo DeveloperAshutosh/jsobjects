@@ -23,3 +23,22 @@ const myPersonArray = [ "hennery" ,//name,
  console.log("i like to :" + myObject.hobbies);
  const validJson = JSON.stringify(myObject);
  console.log(validJson);
+
+
+
+ class Person {
+     constructor( name = "" , age = 0 , hobbies = [])
+     {
+         this.name = name;
+         this.age = age;
+         this.hobbies = hobbies;
+     }
+
+     
+ }
+
+
+ //leyts make some people now
+ const sarah = new Person ("sarah " , 30 , ["sleep", "cosplay"]);
+
+ console.log(sarah)
